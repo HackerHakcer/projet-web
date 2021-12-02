@@ -11,20 +11,7 @@ a {
     width: auto;
 }
 
-label {
-    color: aliceblue;
-    font-size: 17px;
-    margin-left: 0px;
-    text-decoration: solid;
-    font-family: 'Courier New', monospace;
-    padding-left: 10px;
-}
-
-#rem {
-    margin-left: -.100px;
-}
-
-nav .b2 {
+nav .b1 {
     font-size: 25px;
     margin-top: -0.3rem;
     margin-right: 30px;
@@ -37,7 +24,6 @@ nav .b2 {
     border: 2px solid #8b0000;
     padding: 14px 40px;
     padding-top: 10px;
-    padding-left: 20px;
     outline: none;
     color: red;
     border-radius: 24px;
@@ -45,7 +31,7 @@ nav .b2 {
     cursor: pointer;
 }
 
-nav .b2:hover {
+nav .b1:hover {
     background: #8b0000;
     color: white;
     border-color: #8b0000;
@@ -84,12 +70,23 @@ a:hover {
     color: red;
 }
 
+.tab1 .icon td {
+    text-align: center;
+    font-size: 35px;
+}
+
 .footer {
-    width: 1565px;
-    height: 100px;
+    width: 1550px;
+    height: 0px;
     background-color: #000000ab;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+}
+
+h4 {
+    font-size: 17px;
+    margin-left: 0px;
+    text-decoration: solid;
+    font-family: 'Courier New', monospace;
+    color: aliceblue;
 }
 
 h1 {
@@ -127,7 +124,7 @@ td {
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
 footer {
-    padding-top: 700px;
+    padding-top: 800px;
 }
 
 pre h1 {
@@ -143,9 +140,10 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-image: url('https://wallpapercave.com/wp/wp7578886.jpg');
     background-position: center;
     background-size: cover;
+    background-image: url('https://cdn.bfldr.com/SH6M70M3/as/fnh9mwm659ztbs35qbpb37j/Women_lifting_barbell_by_Sven_Meike.png?width=719&height=464&fit=crop&auto=webp');
+    background-repeat: no-repeat;
 }
 
 ul {
@@ -209,7 +207,7 @@ h4 a {
 
 h4.new a {
     font-size: 17px;
-    margin-left: 80px;
+    margin-left: 100px;
     font-family: 'Courier New', monospace;
 }
 
@@ -218,13 +216,23 @@ h4.new a {
     padding: 40px;
     margin-left: 0px;
     position: absolute;
-    height: 640px;
+    height: 620px;
     padding-left: 75px;
     text-align: center;
     background-color: #000000ab;
 }
 
-.box input[type="text"] {
+h5 {
+    font-size: 17px;
+    margin-left: 140px;
+    text-decoration: solid;
+    font-family: 'Courier New', monospace;
+    color: aliceblue;
+}
+
+.box input[type="text"],
+.box input[type="date"],
+.box input[type="email"] {
     border: 0;
     background: none;
     display: block;
@@ -232,12 +240,12 @@ h4.new a {
     text-align: center;
     border: 2px solid red;
     padding: 14px 10px;
-    width: 300px;
+    width: 190px;
     outline: none;
     color: rgb(100, 98, 98);
     border-radius: 24px;
     transition: 0.25s;
-    font-size: 25px;
+    font-size: 10px;
 }
 
 .box input[type="password"] {
@@ -248,23 +256,25 @@ h4.new a {
     text-align: center;
     border: 2px solid red;
     padding: 14px 10px;
-    width: 300px;
+    width: 190px;
     outline: none;
     color: rgb(100, 98, 98);
     border-radius: 24px;
     transition: 0.25s;
-    font-size: 25px;
+    font-size: 10px;
 }
 
 .box input[type="text"]:focus,
-.box input[type="password"]:focus {
-    width: 350px;
+.box input[type="password"]:focus,
+.box input[type="email"]:focus,
+.box input[type="date"]:focus {
+    width: 240px;
     border-color: #8b0000;
 }
 
 .box input[type="submit"] {
     border: 0;
-    font-size: 25px;
+    font-size: 15px;
     background: none;
     display: block;
     margin: 20px auto;
@@ -282,5 +292,5 @@ h4.new a {
     background: #8b0000;
     color: white;
     border-color: #8b0000;
-    width: 175px;
+    width: 190px;
 }
